@@ -1,4 +1,4 @@
-# Building a Large Language Model From the Inside Out
+# Build a Large Language Model From the Inside Out
 
 > **Understanding and building LLMs from first principles, one concept at a time.**
 
