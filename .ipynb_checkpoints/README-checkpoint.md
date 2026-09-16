@@ -34,11 +34,11 @@ Each chapter introduces a concept, develops the intuition behind it, and then mo
 
 ---
 
-## Chapters
+## Modules
 
-| Chapter | Topic | Status |
+| Module | Topic | Status |
 |---|---|---|
-| 01 | [What Actually Is a Large Language Model?](./01-what-actually-is-a-large-language-model.ipynb) | ✅ Completed |
+| 01 | [What Actually Is a Large Language Model?](./mod01/what-actually-is-a-large-language-model.md) | ✅ Completed |
 
 More chapters will be added as the series progresses.
 
@@ -97,45 +97,6 @@ Language Model
 ```
 
 By the end of the journey, the goal is to understand what each stage is doing and how the pieces fit together.
-
----
-
-## Chapter 1
-
-### What Actually Is a Large Language Model?
-
-The first chapter establishes the fundamental mental model behind an LLM.
-
-We explore:
-
-- Traditional task-specific NLP
-- Next-token prediction
-- Why next-token prediction can lead to useful language representations
-- Training examples
-- Loss and parameter updates
-- Training objectives versus model architecture
-- The role of the Transformer
-- The intuition behind attention
-- Scale and data diversity
-- Pretraining versus post-training
-
-The chapter concludes with the basic LLM training loop:
-
-```text
-Large, Diverse Text
-        ↓
-Next-Token Prediction
-        ↓
-Loss
-        ↓
-Update Parameters
-        ↓
-Repeat
-        ↓
-Learned Patterns
-```
-
-The next chapter moves from **what the model is trying to learn** to **how text is represented so that a neural network can process it**.
 
 ---
 

@@ -34,11 +34,11 @@ Each chapter introduces a concept, develops the intuition behind it, and then mo
 
 ---
 
-## Chapters
+## Modules
 
-| Chapter | Topic | Status |
+| Module | Topic | Status |
 |---|---|---|
-| 01 | [What Actually Is a Large Language Model?](./01-what-actually-is-a-large-language-model.ipynb) | ✅ Completed |
+| 01 | [What Actually Is a Large Language Model?](./mod01/what-actually-is-a-large-language-model.md) | ✅ Completed |
 
 More chapters will be added as the series progresses.
 
