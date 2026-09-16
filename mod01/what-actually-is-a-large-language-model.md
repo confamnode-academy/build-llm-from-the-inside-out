@@ -1,11 +1,8 @@
 # 01 — What Actually Is a Large Language Model?
 Series: Building a Large Language Model From the Inside Out
-Companion to blog post: "I Thought I Understood LLMs. Then I Asked What One Actually Does."
-(academy.confamnode.com/blog/i-thought-i-understood-llms)
+Companion to blog post: [I Thought I Understood LLMs. Then I Asked What One Actually Does](https://academy.confamnode.com/blog/i-thought-i-understood-llms)
 
-Tutorial URL: academy.confamnode.com/tutorials/what-actually-is-a-large-language-model
-
-Repo folder: mod01
+Tutorial URL: [What Actually Is a Large Language Model?](https://academy.confamnode.com/tutorials/what-actually-is-a-large-language-model)
 
 Note: Module 01 has no code, and this page isn't trying to invent any. It's the
 structured, reference version of the ideas the blog post walks through narratively —
@@ -158,6 +155,6 @@ instruction tuning and preference training — which come later in this series (
 - Pretraining alone doesn't produce a helpful assistant — that takes further stages
   covered later in this series.
 
-[Continue to Module 2 — Handling Text Data →](academy.confamnode.com/tutorials/handling-text-data)
+[Continue to Module 2 — Handling Text Data →](https://academy.confamnode.com/tutorials/handling-text-data)
 
-[Read the narrative version this page is built from →](academy.confamnode.com/blog/i-thought-i-understood-llms)
+[Read the narrative version this page is built from →](https://academy.confamnode.com/blog/i-thought-i-understood-llms)
