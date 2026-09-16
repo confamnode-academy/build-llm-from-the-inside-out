@@ -1,4 +1,4 @@
-# 01 — What Actually Is a Large Language Model?
+# Module 1 — What Actually Is a Large Language Model?
 Series: Building a Large Language Model From the Inside Out
 Companion to blog post: [I Thought I Understood LLMs. Then I Asked What One Actually Does](https://academy.confamnode.com/blog/i-thought-i-understood-llms)
 
