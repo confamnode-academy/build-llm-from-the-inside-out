@@ -2,8 +2,6 @@
 Series: Building a Large Language Model From the Inside Out
 Companion to blog post: [I Thought I Understood LLMs. Then I Asked What One Actually Does](https://academy.confamnode.com/blog/i-thought-i-understood-llms)
 
-Tutorial URL: [What Actually Is a Large Language Model?](https://academy.confamnode.com/tutorials/what-actually-is-a-large-language-model)
-
 Note: Module 01 has no code, and this page isn't trying to invent any. It's the
 structured, reference version of the ideas the blog post walks through narratively —
 something to scan back to later, not a one-time read.
