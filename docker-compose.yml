@@ -1,0 +1,26 @@
+name: building-llm-from-the-inside-out    
+
+services:
+  lab:
+    image: quay.io/jupyter/base-notebook:2026-08-24
+    container_name: llm-lab
+    ports:
+      - "8888:8888"
+    environment:
+      JUPYTER_TOKEN: ""
+      GRANT_SUDO: "yes"
+      # Named volumes are created root-owned. The entrypoint runs as root, fixes
+      # ownership on these paths, then drops to the jovyan user.
+      CHOWN_EXTRA: "/home/jovyan/.local,/home/jovyan/.cache"
+      CHOWN_EXTRA_OPTS: "-R"
+    user: root
+    volumes:
+      - .:/home/jovyan/work
+      - lab-local:/home/jovyan/.local
+    working_dir: /home/jovyan/work
+    command: >
+      bash -c "pip install --no-cache-dir -q ipywidgets &&
+               start-notebook.py --ServerApp.root_dir=/home/jovyan/work"
+
+volumes:
+  lab-local:

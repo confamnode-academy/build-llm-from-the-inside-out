@@ -100,6 +100,45 @@ By the end of the journey, the goal is to understand what each stage is doing an
 
 ---
 
+## Chapter 1
+
+### What Actually Is a Large Language Model?
+
+The first chapter establishes the fundamental mental model behind an LLM.
+
+We explore:
+
+- Traditional task-specific NLP
+- Next-token prediction
+- Why next-token prediction can lead to useful language representations
+- Training examples
+- Loss and parameter updates
+- Training objectives versus model architecture
+- The role of the Transformer
+- The intuition behind attention
+- Scale and data diversity
+- Pretraining versus post-training
+
+The chapter concludes with the basic LLM training loop:
+
+```text
+Large, Diverse Text
+        ↓
+Next-Token Prediction
+        ↓
+Loss
+        ↓
+Update Parameters
+        ↓
+Repeat
+        ↓
+Learned Patterns
+```
+
+The next chapter moves from **what the model is trying to learn** to **how text is represented so that a neural network can process it**.
+
+---
+
 ## Nigerian Context
 
 Where appropriate, the tutorials use Nigerian English, Nigerian Pidgin, and familiar Nigerian contexts to make abstract concepts more concrete.
