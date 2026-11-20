@@ -38,9 +38,10 @@ Each chapter introduces a concept, develops the intuition behind it, and then mo
 
 | Module | Topic | Status |
 |---|---|---|
-| 01 | [What Actually Is a Large Language Model?](./mod01/what-actually-is-a-large-language-model.md) | ✅ Completed |
-| 02 | [Handling Text Data?](./mod02/handling-text-data.ipynb) | ✅ Completed |
-| 03 | [Building the Attention Mechanism?](./mod03/building-the-attention-mechanism.ipynb) | ✅ Completed |
+| 01 | [What Actually Is a Large Language Model](./mod01/what-actually-is-a-large-language-model.md) | ✅ Completed |
+| 02 | [Handling Text Data](./mod02/handling-text-data.ipynb) | ✅ Completed |
+| 03 | [Building the Attention Mechanism](./mod03/building-the-attention-mechanism.ipynb) | ✅ Completed |
+| 04 | [Implementing a GPT Model](./mod04/implementing-a-gpt-model.ipynb) | ✅ Completed |
 
 More chapters will be added as the series progresses.
 
